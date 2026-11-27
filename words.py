@@ -13,7 +13,6 @@ def load_words(path):
                     print(f"跳过格式错误行:{line.strip()}")
     except FileNotFoundError:
         print("文件不存在")
-        pass
     return result_list
 
 
