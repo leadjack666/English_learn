@@ -1,3 +1,4 @@
+#以下为拉取txt文件读出单词英文和中文和保存错题的函数
 def load_mistakes(path):
     result_list1=set()
     try:
